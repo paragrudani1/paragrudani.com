@@ -1,0 +1,64 @@
+.description p {
+    font-family: 'Josefin Sans',
+    sans-serif;
+    text-align: left;
+    /* width: 95%; */
+    color: white;
+    /* letter-spacing: 1px; */
+    font-size: 2.5rem;
+    margin-bottom: 120px;
+}
+
+.Typewriter {
+    margin-top: 50px;
+    text-align: left;
+}
+
+h1 {
+    position: relative;
+    font-family: 'Offside',
+    cursive;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+h1 span {
+    position: relative;
+}
+
+
+@media (min-width:425px) {
+    .description p {
+        width: 88%;
+        font-size: 3rem
+    }
+}
+
+@media (min-width:768px) {
+    .description p {
+        width: 60%;
+        margin-left: 40px;
+    }
+}
+
+@media (min-width:1024px) {
+    .description p {
+        padding-left: 25px;
+        width: 50%;
+        line-height: 116%;
+    }
+
+    .Typewriter h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media (min-width:1500px) {
+     .description p {
+         padding-left: 25px;
+         width: 40%;
+         line-height: 116%;
+     }
+}

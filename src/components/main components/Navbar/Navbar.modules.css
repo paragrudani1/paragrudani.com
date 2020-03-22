@@ -1,0 +1,78 @@
+
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+    padding: 20px;
+    padding-top: 40px;
+    background-image: linear-gradient(91.9deg, rgba(75, 207, 250, .9) 6.3%, rgba(25, 159, 249, .9) 98.9%);
+    /* background-color: black; */
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    z-index: 111111;
+    backdrop-filter: blur(2px);
+}
+
+nav h1 {
+    font-family: 'Aclonica',
+        sans-serif;
+    font-size: 19px;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.burger {
+    cursor: pointer;
+    position: relative;
+    z-index: 111111111;
+}
+
+/* Burger Menu */
+.burger>div {
+    background-color: white;
+    width: 27px;
+    height: 3px;
+    border-radius: 10px;
+    transition: all 0.3s cubic-bezier(0, 0.68, 0.38, 1.4);
+}
+
+.line2,
+.line3 {
+    margin-top: 7px;
+}
+
+.toggles .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px)
+}
+
+.toggles .line2 {
+    /* transform: translate(-500px); */
+    opacity: 0;
+}
+
+.toggles .line3 {
+    transform: translate(1px, -12px) rotate(45deg);
+}
+
+@media (min-width:768px) {
+
+    nav {
+        padding: 20px 100px 20px 100px;
+    }
+
+    .burger {
+        margin-top: 10px;
+    }
+}
+
+
+@media (min-width:1500px) {
+
+    nav {
+        padding: 30px 100px 30px 100px;
+    }
+}

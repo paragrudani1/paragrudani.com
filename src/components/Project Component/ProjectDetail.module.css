@@ -1,0 +1,42 @@
+img {
+    width: 100%;
+    transition: 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.project_detail:nth-child(2), .project_detail:nth-child(3) {
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 22px;
+    font-family: "PT Sans", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+@media (min-width:768px) {
+    img:hover {
+        transform: scale(1.06);
+    }
+
+     h1{
+        margin-left: 20px;
+    }
+
+}
+
+@media (min-width:1024px) {
+ 
+    .project h1 {
+        font-size: 1.5rem;
+    }
+
+    .project_detail:nth-child(2), .project_detail:nth-child(3) {
+        margin: 0;
+    }
+}

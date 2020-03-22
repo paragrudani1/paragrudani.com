@@ -1,0 +1,21 @@
+footer {
+    background: #06ADFE;
+    height: 54px;
+    /* display: flex; */
+    /* position: relative; */
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 116.5%;
+    /* or 16px */
+
+    color: #FFFFFF;
+
+}
+

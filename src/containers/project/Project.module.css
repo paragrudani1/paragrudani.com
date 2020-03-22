@@ -1,0 +1,53 @@
+
+.desc p {
+    height: 300px;height: 300px;height: 300px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 112.5%;
+    /* or 39px */
+    color: #FFFFFF;
+}
+
+.project {
+    display: grid;
+    margin-top: 100px;
+}
+
+@media (min-width:768px) {
+    .project {
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    .desc {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 180px;
+    }
+
+    .desc p {
+        line-height: 120%;
+        font-size: 2.3rem;
+    }
+
+}
+
+@media (min-width:1024px) {
+    .project {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+    }
+
+    .desc {
+        width: 40%;
+        margin-left: 70px;
+        margin-bottom: 150px;
+    }
+
+    .desc p {
+        line-height: 130%;
+        font-size: 2.5rem;
+    }
+}
