@@ -4,6 +4,7 @@ import About from './containers/about/about'
 import './App.css';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
 import Project from './containers/project/Project'
+import Contact from './containers/contact/Contact'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Redirect to='/' />
         </Route>
         <Route path='/about' component={About} />
+        <Route path='/contact' component={Contact} />
         <Route path='/project' component={Project} />
       </Switch>
       {/* <Route path='/about' component={About} /> */}

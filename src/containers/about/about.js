@@ -47,7 +47,7 @@ class About extends Component {
                         </p>
                             <br />
                         <p>
-                            Here is a list of things I can and I love to work with. For more information on this topic you can check out my <a href="#">resume.</a>
+                            Here is a list of things I can and I love to work with. For more information on this topic you can check out my resume.
                         </p>
                     </div>
                 </section>
