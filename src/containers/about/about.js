@@ -33,7 +33,7 @@ class About extends Component {
                             <p>another big passion is Playing Cricket and reading Books.</p>
                         </div>
                         <div className={classes.img}>
-                            <img src={Photo} alt="photo" />
+                            <img src={Photo} alt="parag rudani" />
                         </div>
                     </div>
                 </section>

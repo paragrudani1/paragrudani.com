@@ -3,6 +3,7 @@ footer {
     height: 54px;
     /* display: flex; */
     /* position: relative; */
+    margin-top: 50px;
 }
 
 footer p {

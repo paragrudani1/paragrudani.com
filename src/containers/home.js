@@ -7,6 +7,7 @@ import Project from '../components/Home Component/Project/Project'
 import VotingPollImg from '../assets/Group.png'
 import MusicAppImg from '../assets/music-app.png'
 import Footer from '../components/main components/Footer/Footer'
+import {Link} from 'react-router-dom'
 
 const Main = styled.main`
     margin-top: 180px;
@@ -143,11 +144,11 @@ const home = () => {
                             link={"https://competent-cori-7e3fcb.netlify.com/"} />
                     </Projects>
 
-                    <a href="project.html">
+                    <Link to="/project">
             <SeeMore>
                <p> see more </p>
             </SeeMore>
-            </a>
+            </Link>
                 </ProjectSection>
             </Main>
                 <Footer />
